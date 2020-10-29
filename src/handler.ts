@@ -35,5 +35,4 @@ export const getNextPosition = (currentPosition: IPosition, instruction: Instruc
     default:
       throw new InvalidInstructionError(instruction);
   }
-  console.log(currentPosition);
 };
